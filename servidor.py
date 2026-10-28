@@ -1,7 +1,7 @@
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 
 HOST = "0.0.0.0"
-PORTA = 8000
+PORTA = 80
 
 servidor = HTTPServer((HOST, PORTA), SimpleHTTPRequestHandler)
 
